@@ -1,0 +1,38 @@
+{
+  "shape": [
+    24,
+    32,
+    32
+  ],
+  "length": [
+    1.8,
+    2.4,
+    2.4
+  ],
+  "curtain_x": 0.9,
+  "bottom": 0.3,
+  "top": 2.1,
+  "dt": 0.004,
+  "duration": 12.0,
+  "output_interval": 0.1,
+  "flow_lpm": 8.0,
+  "diameter_mm": 1.0,
+  "speed": 1.0,
+  "tilt_deg": 20.0,
+  "cone_half_deg": 8.0,
+  "head": [
+    0.45,
+    0.35,
+    2.1
+  ],
+  "head_radius": 0.05,
+  "rays": 12,
+  "water_delta_T": 18.0,
+  "momentum": true,
+  "heat": false,
+  "rho": 1.2,
+  "nu": 0.003015,
+  "alpha": 0.004307,
+  "beta": 0.0033881077418261903,
+  "g": 9.81
+}

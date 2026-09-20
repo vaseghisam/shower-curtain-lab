@@ -1,0 +1,104 @@
+{
+  "spray": [
+    {
+      "label": "Light, unweighted",
+      "sigma_kg_m2": 0.1,
+      "hem_kg_m": 0,
+      "mean_hem_m": 0.05203675278160094,
+      "max_m": 0.07506909833508725,
+      "max_slope": 0.1355902423795458
+    },
+    {
+      "label": "Unweighted",
+      "sigma_kg_m2": 0.2,
+      "hem_kg_m": 0,
+      "mean_hem_m": 0.02601837639080047,
+      "max_m": 0.037534549167543625,
+      "max_slope": 0.0677951211897729
+    },
+    {
+      "label": "Baseline hem",
+      "sigma_kg_m2": 0.2,
+      "hem_kg_m": 0.05,
+      "mean_hem_m": 0.018198902203716748,
+      "max_m": 0.024617447909663463,
+      "max_slope": 0.018046236000126312
+    },
+    {
+      "label": "Heavier hem",
+      "sigma_kg_m2": 0.2,
+      "hem_kg_m": 0.1,
+      "mean_hem_m": 0.01472765551220846,
+      "max_m": 0.019528600440469515,
+      "max_slope": 0.014700422038653217
+    }
+  ],
+  "heat": [
+    {
+      "label": "Light, unweighted",
+      "sigma_kg_m2": 0.1,
+      "hem_kg_m": 0,
+      "mean_hem_m": 0.03780372247010809,
+      "max_m": 0.04847169918255717,
+      "max_slope": 0.03185064810025315
+    },
+    {
+      "label": "Unweighted",
+      "sigma_kg_m2": 0.2,
+      "hem_kg_m": 0,
+      "mean_hem_m": 0.018901861235054045,
+      "max_m": 0.024235849591278585,
+      "max_slope": 0.015925324050126574
+    },
+    {
+      "label": "Baseline hem",
+      "sigma_kg_m2": 0.2,
+      "hem_kg_m": 0.05,
+      "mean_hem_m": 0.013281135231920697,
+      "max_m": 0.016865983322858852,
+      "max_slope": 0.011008364548118118
+    },
+    {
+      "label": "Heavier hem",
+      "sigma_kg_m2": 0.2,
+      "hem_kg_m": 0.1,
+      "mean_hem_m": 0.010792501875803301,
+      "max_m": 0.013656319731637476,
+      "max_slope": 0.009613158232796662
+    }
+  ],
+  "both": [
+    {
+      "label": "Light, unweighted",
+      "sigma_kg_m2": 0.1,
+      "hem_kg_m": 0,
+      "mean_hem_m": 0.08953551012928385,
+      "max_m": 0.11863111889265857,
+      "max_slope": 0.11591109600028342
+    },
+    {
+      "label": "Unweighted",
+      "sigma_kg_m2": 0.2,
+      "hem_kg_m": 0,
+      "mean_hem_m": 0.04476775506464192,
+      "max_m": 0.05931555944632928,
+      "max_slope": 0.05795554800014171
+    },
+    {
+      "label": "Baseline hem",
+      "sigma_kg_m2": 0.2,
+      "hem_kg_m": 0.05,
+      "mean_hem_m": 0.03212728858954007,
+      "max_m": 0.039941207530213976,
+      "max_slope": 0.03032090073291391
+    },
+    {
+      "label": "Heavier hem",
+      "sigma_kg_m2": 0.2,
+      "hem_kg_m": 0.1,
+      "mean_hem_m": 0.026158271435884766,
+      "max_m": 0.031858768315871054,
+      "max_slope": 0.024174912611848082
+    }
+  ]
+}

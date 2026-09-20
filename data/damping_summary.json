@@ -1,0 +1,182 @@
+{
+  "spray_half": {
+    "source": "grid_fine_spray.npz",
+    "source_sha256": "cd4359cd899afc231b1fe7ceeafe5c7cf936552112e1728512447544c4e8df49",
+    "airflow_window_s": [
+      10.0,
+      12.0
+    ],
+    "time_definition": "seconds since release under computed mean load",
+    "load_definition": "trapezoidal time integral of saved pressure, held constant; no rescaling",
+    "status": "separate prescribed-load mechanics experiment; no evolving airflow or geometry feedback",
+    "sigma_kg_m2": 0.2,
+    "hem_kg_m": 0.05,
+    "damping_kg_m2_s": 0.04,
+    "clearance_m": 0.15,
+    "max_slope": 0.3,
+    "selected_probe_index": 6,
+    "positive_displacement": "inward",
+    "all_probe_peaks_m": [
+      0.039524447527708714,
+      0.038304103712705796,
+      0.03493076436782074,
+      0.0390547627287235,
+      0.041369171571318926,
+      0.04366250920675417,
+      0.04802986140109365,
+      0.04729070047016402,
+      0.014926318436508768
+    ],
+    "maximum_sampled_excursion_m": 0.04802986140109365
+  },
+  "spray_double": {
+    "source": "grid_fine_spray.npz",
+    "source_sha256": "cd4359cd899afc231b1fe7ceeafe5c7cf936552112e1728512447544c4e8df49",
+    "airflow_window_s": [
+      10.0,
+      12.0
+    ],
+    "time_definition": "seconds since release under computed mean load",
+    "load_definition": "trapezoidal time integral of saved pressure, held constant; no rescaling",
+    "status": "separate prescribed-load mechanics experiment; no evolving airflow or geometry feedback",
+    "sigma_kg_m2": 0.2,
+    "hem_kg_m": 0.05,
+    "damping_kg_m2_s": 0.16,
+    "clearance_m": 0.15,
+    "max_slope": 0.3,
+    "selected_probe_index": 6,
+    "positive_displacement": "inward",
+    "all_probe_peaks_m": [
+      0.0349903363469833,
+      0.03405363895369058,
+      0.031022285466456946,
+      0.03469933471138618,
+      0.036801908867741734,
+      0.038890550368164696,
+      0.04283152959763335,
+      0.042250579669083355,
+      0.013359433130281283
+    ],
+    "maximum_sampled_excursion_m": 0.04283152959763335
+  },
+  "heat_half": {
+    "source": "grid_fine_heat.npz",
+    "source_sha256": "03b12d9152d97c5c83c238b4e087abeeb1ec86a9392101399c95ef37c9d0256d",
+    "airflow_window_s": [
+      10.0,
+      12.0
+    ],
+    "time_definition": "seconds since release under computed mean load",
+    "load_definition": "trapezoidal time integral of saved pressure, held constant; no rescaling",
+    "status": "separate prescribed-load mechanics experiment; no evolving airflow or geometry feedback",
+    "sigma_kg_m2": 0.2,
+    "hem_kg_m": 0.05,
+    "damping_kg_m2_s": 0.04,
+    "clearance_m": 0.15,
+    "max_slope": 0.3,
+    "selected_probe_index": 2,
+    "positive_displacement": "inward",
+    "all_probe_peaks_m": [
+      0.02898751457003969,
+      0.032981564826882026,
+      0.03470528048112595,
+      0.0319837292222666,
+      0.029197681226078027,
+      0.02672902952902083,
+      0.024093456870493253,
+      0.021452464038988626,
+      0.01973533744174875
+    ],
+    "maximum_sampled_excursion_m": 0.03470528048112595
+  },
+  "heat_double": {
+    "source": "grid_fine_heat.npz",
+    "source_sha256": "03b12d9152d97c5c83c238b4e087abeeb1ec86a9392101399c95ef37c9d0256d",
+    "airflow_window_s": [
+      10.0,
+      12.0
+    ],
+    "time_definition": "seconds since release under computed mean load",
+    "load_definition": "trapezoidal time integral of saved pressure, held constant; no rescaling",
+    "status": "separate prescribed-load mechanics experiment; no evolving airflow or geometry feedback",
+    "sigma_kg_m2": 0.2,
+    "hem_kg_m": 0.05,
+    "damping_kg_m2_s": 0.16,
+    "clearance_m": 0.15,
+    "max_slope": 0.3,
+    "selected_probe_index": 2,
+    "positive_displacement": "inward",
+    "all_probe_peaks_m": [
+      0.02585584468316088,
+      0.029396954283760855,
+      0.030914123836696568,
+      0.02846902364862857,
+      0.0259801334590224,
+      0.023777965563769893,
+      0.021432195267021423,
+      0.01908532353275454,
+      0.017560411147633067
+    ],
+    "maximum_sampled_excursion_m": 0.030914123836696568
+  },
+  "both_half": {
+    "source": "grid_fine_both.npz",
+    "source_sha256": "1ac839a24bd767bdf480028eccd85d0248a6fca1dd6e533b4fc6159c5acc0dff",
+    "airflow_window_s": [
+      10.0,
+      12.0
+    ],
+    "time_definition": "seconds since release under computed mean load",
+    "load_definition": "trapezoidal time integral of saved pressure, held constant; no rescaling",
+    "status": "separate prescribed-load mechanics experiment; no evolving airflow or geometry feedback",
+    "sigma_kg_m2": 0.2,
+    "hem_kg_m": 0.05,
+    "damping_kg_m2_s": 0.04,
+    "clearance_m": 0.15,
+    "max_slope": 0.3,
+    "selected_probe_index": 7,
+    "positive_displacement": "inward",
+    "all_probe_peaks_m": [
+      0.05775810198838043,
+      0.06562906174055201,
+      0.05839217118552012,
+      0.06061230753150333,
+      0.06555272016017294,
+      0.06983447332898095,
+      0.0752032597225452,
+      0.08082888318157776,
+      0.07382614654734014
+    ],
+    "maximum_sampled_excursion_m": 0.08082888318157776
+  },
+  "both_double": {
+    "source": "grid_fine_both.npz",
+    "source_sha256": "1ac839a24bd767bdf480028eccd85d0248a6fca1dd6e533b4fc6159c5acc0dff",
+    "airflow_window_s": [
+      10.0,
+      12.0
+    ],
+    "time_definition": "seconds since release under computed mean load",
+    "load_definition": "trapezoidal time integral of saved pressure, held constant; no rescaling",
+    "status": "separate prescribed-load mechanics experiment; no evolving airflow or geometry feedback",
+    "sigma_kg_m2": 0.2,
+    "hem_kg_m": 0.05,
+    "damping_kg_m2_s": 0.16,
+    "clearance_m": 0.15,
+    "max_slope": 0.3,
+    "selected_probe_index": 7,
+    "positive_displacement": "inward",
+    "all_probe_peaks_m": [
+      0.05101399050084889,
+      0.05831133020158718,
+      0.0518913980782383,
+      0.05387523531325227,
+      0.05828477603610957,
+      0.06212954896005366,
+      0.06696826531268728,
+      0.07206025805153309,
+      0.06586869878131915
+    ],
+    "maximum_sampled_excursion_m": 0.07206025805153309
+  }
+}

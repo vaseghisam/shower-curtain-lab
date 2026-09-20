@@ -1,0 +1,107 @@
+{
+  "shape": [
+    24,
+    32,
+    32
+  ],
+  "length": [
+    1.8,
+    2.4,
+    2.4
+  ],
+  "curtain_x": 0.9,
+  "bottom": 0.3,
+  "top": 2.1,
+  "dt": 0.004,
+  "duration": 12.0,
+  "output_interval": 0.1,
+  "flow_lpm": 5.0,
+  "diameter_mm": 1.0,
+  "speed": 1.0,
+  "tilt_deg": 20.0,
+  "cone_half_deg": 8.0,
+  "head": [
+    0.45,
+    0.35,
+    2.1
+  ],
+  "head_radius": 0.05,
+  "rays": 12,
+  "water_delta_T": 18.0,
+  "momentum": true,
+  "heat": false,
+  "rho": 1.2,
+  "nu": 0.003015,
+  "alpha": 0.004307,
+  "beta": 0.0033881077418261903,
+  "g": 9.81,
+  "actual_dt": 0.004,
+  "wall_seconds": 66.40754658600054,
+  "max_divergence": 1.4210854715202004e-14,
+  "max_CFL": 0.2949771354257597,
+  "max_wall_leak_m_s": 0.0,
+  "min_air_temperature_rise_K": 0.0,
+  "max_water_mass_balance_error_kg": 6.5503158452884236e-15,
+  "max_water_momentum_balance_error_N_s": 6.794564910705958e-14,
+  "max_water_energy_balance_error_J": 4.114554030820727e-09,
+  "air_heat_J": 0.0,
+  "air_heat_balance_error_J": 0.0,
+  "last_cloud_diagnostics": {
+    "parcels": 1966,
+    "water_mass_present_kg": 0.05461111111111111,
+    "water_mass_injected_kg": 0.9999999999999564,
+    "water_mass_exited_kg": 0.9453888888888519,
+    "curtain_impacted_mass_kg": 0.0,
+    "curtain_impacted_momentum_kg_m_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "curtain_impacted_sensible_energy_J": 0.0,
+    "outer_wall_exited_mass_kg": 0.9453888888888519,
+    "mass_balance_error_kg": 6.5503158452884236e-15,
+    "water_momentum_balance_error_kg_m_s": [
+      -1.1015494072452725e-16,
+      -6.106226635438361e-16,
+      6.439293542825908e-14
+    ],
+    "water_heat_balance_error_J": -4.114554030820727e-09,
+    "gas_drag_impulse_N_s": [
+      0.007374843118885221,
+      0.15953941949542594,
+      -2.479257357704896
+    ],
+    "water_drag_impulse_N_s": [
+      -0.007374843118885221,
+      -0.15953941949542594,
+      2.479257357704896
+    ],
+    "suppressed_drag_impulse_N_s": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "gas_sensible_heat_J": 0.0,
+    "suppressed_sensible_heat_J": 13332.325748740874,
+    "max_drag_step": 0.009488957295988466,
+    "instantaneous_gas_force": [
+      0.0010172269497480063,
+      0.014159105190713677,
+      -0.21502738527575396
+    ],
+    "instantaneous_heat_watts": 0.0
+  },
+  "trace_columns": [
+    "t_s",
+    "mean_dp_Pa",
+    "min_dp_Pa",
+    "max_dp_Pa",
+    "max_air_speed_m_s",
+    "max_air_deltaT_K",
+    "mean_inside_deltaT_K",
+    "mean_outside_deltaT_K",
+    "parcels"
+  ],
+  "model": "3D impermeable fixed baffle; explicit parcel drag/heat; free-slip insulating outer walls; no evaporation or bather",
+  "pressure_definition": "reduced pressure outside minus inside at adjacent cells sharing the blocked curtain face"
+}
