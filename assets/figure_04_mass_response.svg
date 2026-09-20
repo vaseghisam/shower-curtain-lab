@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="1600px" height="900px" viewBox="0 0 1152 648" version="1.1" role="img">
+ <desc>Fine-grid fixed-pressure response for four selected sheet and hem masses.</desc><title>figure 04 mass response</title><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-09-17T20:09:13.884418</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648  L 1152 648  L 1152 0  L 0 0  z " style="fill: #fafaf7" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 380.16 495.72  L 1059.84 495.72  L 1059.84 165.24  L 380.16 165.24  z " style="fill: #fafaf7" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1" />
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #657381" x="380.16" y="511.078281" transform="rotate(-0 380.16 511.078281)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2" />
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #657381" x="516.096" y="511.078281" transform="rotate(-0 516.096 511.078281)">2</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3" />
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #657381" x="652.032" y="511.078281" transform="rotate(-0 652.032 511.078281)">4</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4" />
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #657381" x="787.968" y="511.078281" transform="rotate(-0 787.968 511.078281)">6</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5" />
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #657381" x="923.904" y="511.078281" transform="rotate(-0 923.904 511.078281)">8</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6" />
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #657381" x="1059.84" y="511.078281" transform="rotate(-0 1059.84 511.078281)">10</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #18212b" x="720" y="527.243906" transform="rotate(-0 720 527.243906)">Mean static hem displacement (cm)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7" />
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #657381" transform="translate(258.899219 204.501118)">Light; no added hem</text>
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #657381" transform="translate(198.894219 216.818711)">σ = 0.10 kg/m²; hem 0.00 kg/m</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_8" />
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #657381" transform="translate(292.294531 287.724487)">No added hem</text>
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #657381" transform="translate(198.894219 300.042081)">σ = 0.20 kg/m²; hem 0.00 kg/m</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_9" />
+     <g id="text_10">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #657381" transform="translate(298.571406 370.947857)">Baseline hem</text>
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #657381" transform="translate(198.894219 383.26545)">σ = 0.20 kg/m²; hem 0.05 kg/m</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10" />
+     <g id="text_11">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #657381" transform="translate(302.570938 454.171226)">Heavier hem</text>
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #657381" transform="translate(198.894219 466.48882)">σ = 0.20 kg/m²; hem 0.10 kg/m</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 380.16 495.72  L 380.16 165.24  " style="fill: none; stroke: #d8dee4; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_4">
+    <path d="M 380.16 495.72  L 1059.84 495.72  " style="fill: none; stroke: #d8dee4; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_5">
+    <path d="M 380.16 194.409791  L 733.843401 194.409791  L 733.843401 180.261818  L 380.16 180.261818  z " clip-path="url(#p9a0b4ae2a9)" style="fill: #4c78a8" />
+   </g>
+   <g id="patch_6">
+    <path d="M 380.16 277.63316  L 557.001701 277.63316  L 557.001701 263.485188  L 380.16 263.485188  z " clip-path="url(#p9a0b4ae2a9)" style="fill: #4c78a8" />
+   </g>
+   <g id="patch_7">
+    <path d="M 380.16 360.85653  L 503.854298 360.85653  L 503.854298 346.708557  L 380.16 346.708557  z " clip-path="url(#p9a0b4ae2a9)" style="fill: #4c78a8" />
+   </g>
+   <g id="patch_8">
+    <path d="M 380.16 444.079899  L 480.260929 444.079899  L 480.260929 429.931926  L 380.16 429.931926  z " clip-path="url(#p9a0b4ae2a9)" style="fill: #4c78a8" />
+   </g>
+   <g id="text_12">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4c78a8" x="740.640201" y="190.647055" transform="rotate(-0 740.640201 190.647055)">5.20</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4c78a8" x="563.798501" y="273.870424" transform="rotate(-0 563.798501 273.870424)">2.60</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4c78a8" x="510.651098" y="357.093793" transform="rotate(-0 510.651098 357.093793)">1.82</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4c78a8" x="487.057729" y="440.317163" transform="rotate(-0 487.057729 440.317163)">1.47</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 380.16 212.718932  L 637.104341 212.718932  L 637.104341 198.570959  L 380.16 198.570959  z " clip-path="url(#p9a0b4ae2a9)" style="fill: #c84c4c" />
+   </g>
+   <g id="patch_10">
+    <path d="M 380.16 295.942302  L 508.63217 295.942302  L 508.63217 281.794329  L 380.16 281.794329  z " clip-path="url(#p9a0b4ae2a9)" style="fill: #c84c4c" />
+   </g>
+   <g id="patch_11">
+    <path d="M 380.16 379.165671  L 470.42922 379.165671  L 470.42922 365.017698  L 380.16 365.017698  z " clip-path="url(#p9a0b4ae2a9)" style="fill: #c84c4c" />
+   </g>
+   <g id="patch_12">
+    <path d="M 380.16 462.389041  L 453.514477 462.389041  L 453.514477 448.241068  L 380.16 448.241068  z " clip-path="url(#p9a0b4ae2a9)" style="fill: #c84c4c" />
+   </g>
+   <g id="text_16">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c84c4c" x="643.901141" y="208.956196" transform="rotate(-0 643.901141 208.956196)">3.78</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c84c4c" x="515.42897" y="292.179565" transform="rotate(-0 515.42897 292.179565)">1.89</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c84c4c" x="477.22602" y="375.402935" transform="rotate(-0 477.22602 375.402935)">1.33</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c84c4c" x="460.311277" y="458.626304" transform="rotate(-0 460.311277 458.626304)">1.08</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 380.16 231.028074  L 988.714955 231.028074  L 988.714955 216.880101  L 380.16 216.880101  z " clip-path="url(#p9a0b4ae2a9)" style="fill: #34536f" />
+   </g>
+   <g id="patch_14">
+    <path d="M 380.16 314.251443  L 684.437478 314.251443  L 684.437478 300.10347  L 380.16 300.10347  z " clip-path="url(#p9a0b4ae2a9)" style="fill: #34536f" />
+   </g>
+   <g id="patch_15">
+    <path d="M 380.16 397.474812  L 598.522755 397.474812  L 598.522755 383.32684  L 380.16 383.32684  z " clip-path="url(#p9a0b4ae2a9)" style="fill: #34536f" />
+   </g>
+   <g id="patch_16">
+    <path d="M 380.16 480.698182  L 557.952539 480.698182  L 557.952539 466.550209  L 380.16 466.550209  z " clip-path="url(#p9a0b4ae2a9)" style="fill: #34536f" />
+   </g>
+   <g id="text_20">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #34536f" x="995.511755" y="227.265337" transform="rotate(-0 995.511755 227.265337)">8.95</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #34536f" x="691.234278" y="310.488707" transform="rotate(-0 691.234278 310.488707)">4.48</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #34536f" x="605.319555" y="393.712076" transform="rotate(-0 605.319555 393.712076)">3.21</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #34536f" x="564.749339" y="476.935445" transform="rotate(-0 564.749339 476.935445)">2.62</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_17">
+     <path d="M 390.96 142.195725  L 414.96 142.195725  L 414.96 133.795725  L 390.96 133.795725  z " style="fill: #4c78a8" />
+    </g>
+    <g id="text_24">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18212b" x="424.56" y="142.195725" transform="rotate(-0 424.56 142.195725)">Spray</text>
+    </g>
+    <g id="patch_18">
+     <path d="M 483.185625 142.195725  L 507.185625 142.195725  L 507.185625 133.795725  L 483.185625 133.795725  z " style="fill: #c84c4c" />
+    </g>
+    <g id="text_25">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18212b" x="516.785625" y="142.195725" transform="rotate(-0 516.785625 142.195725)">Heating</text>
+    </g>
+    <g id="patch_19">
+     <path d="M 587.80875 142.195725  L 611.80875 142.195725  L 611.80875 133.795725  L 587.80875 133.795725  z " style="fill: #34536f" />
+    </g>
+    <g id="text_26">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18212b" x="621.40875" y="142.195725" transform="rotate(-0 621.40875 142.195725)">Spray + heating</text>
+    </g>
+   </g>
+  </g>
+  <g id="line2d_11">
+   <path d="M 57.6 579.312  L 1094.4 579.312  " style="fill: none; stroke: #d8dee4; stroke-linecap: square" />
+  </g>
+  <g id="text_27">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #657381" x="57.6" y="40.824" transform="rotate(-0 57.6 40.824)">CALCULATED</text>
+  </g>
+  <g id="text_28">
+   <text style="font-size: 29px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18212b" x="57.6" y="82.944" transform="rotate(-0 57.6 82.944)">A lighter curtain travels farther under the same load</text>
+  </g>
+  <g id="text_29">
+   <text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #657381" x="57.6" y="115.992" transform="rotate(-0 57.6 115.992)">Width-averaged static hem displacement · fine-grid pressure averaged over 10–12 s</text>
+  </g>
+  <g id="text_30">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #657381" x="57.6" y="605.232" transform="rotate(-0 57.6 605.232)">Only sheet mass and hem mass change; all four mechanical cases receive the same calculated pressure for each control.</text>
+  </g>
+  <g id="text_31">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #657381" x="57.6" y="625.32" transform="rotate(-0 57.6 625.32)">These are free equilibria of the small-slope model. Compare local reach with clearance before drawing a contact conclusion.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9a0b4ae2a9">
+   <rect x="380.16" y="165.24" width="679.68" height="330.48" />
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,36 @@
+{
+  "sources": [
+    {
+      "file": "curtainflow/publication_visuals.py",
+      "sha256": "dfba796dc97ef6e8361f0af92583e8c3603c9321c116bacdc648d999792d509d"
+    },
+    {
+      "file": "assets/style/messi_style.py",
+      "sha256": "4972f2c899d2693f2aa7df83828d83151109ec092e07a8ead0f1bc3ebdd06504"
+    },
+    {
+      "file": "curtainflow/render.py",
+      "sha256": "c38051d6323747e02cb984c7eb6b9e64781f7bd90744debaf014503cff21e305"
+    },
+    {
+      "file": "curtainflow/mechanics.py",
+      "sha256": "a293c38885ed0eca16a571fa63a73f885fedb2f6d470f23ab1dbda8df5b208b6"
+    },
+    {
+      "file": "curtainflow/averaging.py",
+      "sha256": "496dfbbccaddb76ae0f622aceb283b068ff59374f6e481665e6b4f84bbf5f181"
+    }
+  ],
+  "verified_media_files": 35,
+  "analytic_checks": {
+    "droplet_analytic_vs_DOP853_max_error": 3.844702334276917e-12,
+    "strip_hem_0_max_error_m": 1.1268763699945339e-14,
+    "strip_hem_0.1_max_error_m": 1.5629672278638651e-09,
+    "unweighted_exact_hem_m": 0.1834862385321101,
+    "weighted_exact_hem_m": 0.10570559105529818,
+    "vortex_radial_balance_residual_Pa_m": 2.55351295663786e-14,
+    "thermal_gradient_residual_Pa_m": 1.5765166949677223e-14,
+    "thermal_pressure_at_neutral_Pa": 0.0
+  },
+  "manifest_sha256": "2e6dee5ba8a00f612741905d97da22084b246532a7ada821d2359da043fe7278"
+}

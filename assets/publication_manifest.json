@@ -1,0 +1,793 @@
+{
+  "figure_01_geometry": {
+    "files": [
+      {
+        "file": "assets/figure_01_geometry.png",
+        "sha256": "621f1b624cba6953b3c901c21afac5072998b4caadcd880c3e23867a01cfa4af"
+      },
+      {
+        "file": "assets/figure_01_geometry.svg",
+        "sha256": "a66dd72b7cb0234913a43853fdefea461924a597b1b20fefaf05c85e7bb552c1"
+      }
+    ],
+    "sources": [
+      {
+        "file": "data/grid_fine_both_config.json",
+        "sha256": "04160952a9f6b547ed72c61b24f456b8a5d1f66283fa6a0bc0546776410a1f99"
+      }
+    ],
+    "description": "Schematic model cross-section and inward pressure sign. No bather or predicted curtain deformation."
+  },
+  "figure_02_prescribed_strip": {
+    "files": [
+      {
+        "file": "assets/figure_02_prescribed_strip.png",
+        "sha256": "8d6b2322295dbee9d2dba3eee29e9dba792a10e131c9b776ca3ec70a7a90cbae"
+      },
+      {
+        "file": "assets/figure_02_prescribed_strip.svg",
+        "sha256": "4fb5641faa7d84ae41b73212b8db09c9cae35ba898e6049f49a33bedf693ab7f"
+      }
+    ],
+    "sources": [],
+    "description": "Exact constant-pressure hanging-strip equilibrium, unweighted 18.35 cm and weighted 10.57 cm."
+  },
+  "figure_03_pressure_to_strip": {
+    "files": [
+      {
+        "file": "assets/figure_03_pressure_to_strip.png",
+        "sha256": "414263a218716c8c4f5d9b2ec2fe61800d488534ff378ce2a698bed44c8c72ce"
+      },
+      {
+        "file": "assets/figure_03_pressure_to_strip.svg",
+        "sha256": "03045d3b15843fd377e1794ef783e3385f255459c6b89a864bf76a44eefe1ad2"
+      }
+    ],
+    "sources": [
+      {
+        "file": "data/grid_fine_spray.npz",
+        "sha256": "cd4359cd899afc231b1fe7ceeafe5c7cf936552112e1728512447544c4e8df49"
+      },
+      {
+        "file": "data/grid_fine_heat.npz",
+        "sha256": "03b12d9152d97c5c83c238b4e087abeeb1ec86a9392101399c95ef37c9d0256d"
+      },
+      {
+        "file": "data/grid_fine_both.npz",
+        "sha256": "1ac839a24bd767bdf480028eccd85d0248a6fca1dd6e533b4fc6159c5acc0dff"
+      }
+    ],
+    "description": "Fine-grid averaged pressure profiles and strip equilibrium versus hem mass."
+  },
+  "figure_04_mass_response": {
+    "files": [
+      {
+        "file": "assets/figure_04_mass_response.png",
+        "sha256": "439afcaa22221d5f5a3b68d6c0206e9a754c764e54fbaf338980572999a45728"
+      },
+      {
+        "file": "assets/figure_04_mass_response.svg",
+        "sha256": "1dc0b41e418df82764115dfbddcfc892df4a7975e17e67fc08546db9525c88c7"
+      }
+    ],
+    "sources": [
+      {
+        "file": "data/material_summary.json",
+        "sha256": "7b8aea19da294d9e6a06ff99d837f6ab476effac5b386147bc74c0ccfd503e68"
+      },
+      {
+        "file": "data/grid_fine_spray.npz",
+        "sha256": "cd4359cd899afc231b1fe7ceeafe5c7cf936552112e1728512447544c4e8df49"
+      },
+      {
+        "file": "data/grid_fine_heat.npz",
+        "sha256": "03b12d9152d97c5c83c238b4e087abeeb1ec86a9392101399c95ef37c9d0256d"
+      },
+      {
+        "file": "data/grid_fine_both.npz",
+        "sha256": "1ac839a24bd767bdf480028eccd85d0248a6fca1dd6e533b4fc6159c5acc0dff"
+      }
+    ],
+    "description": "Fine-grid fixed-pressure response for four selected sheet and hem masses."
+  },
+  "figure_05_parameter_study": {
+    "files": [
+      {
+        "file": "assets/figure_05_parameter_study.png",
+        "sha256": "c78baf577130b45e5d982eaf1b60284d2f243de4e1a15d8f228fd106090b68b3"
+      },
+      {
+        "file": "assets/figure_05_parameter_study.svg",
+        "sha256": "8bc899ee1c9d37eede36d516b25deaf372191289f614200ae876901401dc8265"
+      }
+    ],
+    "sources": [
+      {
+        "file": "data/results_summary.json",
+        "sha256": "daf5ad3318cf54ccb3155a3175134f906040e1117fab4bf087faa4f00d9bd3f3"
+      },
+      {
+        "file": "data/control_spray.npz",
+        "sha256": "b0aae64df09278398ea0d8dfa45dd9590c3afcda0f0853a59bfe176a6e44336f"
+      },
+      {
+        "file": "data/flow_low.npz",
+        "sha256": "826efa2d21e4c20b964f58c4dcb4f0375b52442874d9402c8a1f7fc9784df64e"
+      },
+      {
+        "file": "data/flow_high.npz",
+        "sha256": "c8adf2ec27fda24ab030cc4c74258e6c97019bafbde5027e19d1efe6ad7ef4a3"
+      },
+      {
+        "file": "data/diameter_small.npz",
+        "sha256": "2bc35a385d0af22b71e3b35caacc9f63f4438db6213f95157de4db67d4fd10fa"
+      },
+      {
+        "file": "data/diameter_large.npz",
+        "sha256": "4c86b2fdcac078e60477b9ed9f3caf4f4d8858a4d99d1307a2cb8032e1c6f23a"
+      },
+      {
+        "file": "data/speed_low.npz",
+        "sha256": "d7b13701b3229ad7a89f38a0be6ba342a1c8b579d2c23de2f82cec4ba0785f00"
+      },
+      {
+        "file": "data/speed_high.npz",
+        "sha256": "8f52db85465846800b5722cb7a93d7f253b27b5897333e82c735ab20dc9115e0"
+      },
+      {
+        "file": "data/tilt_vertical.npz",
+        "sha256": "b24765c1b2f9b5a8307ee5793adbcedbeb43694d34afff1157edc76df79c20ff"
+      },
+      {
+        "file": "data/tilt_high.npz",
+        "sha256": "891b6e38447f9f96436ff4883572c49be4a2e0fe4abd0339c1c484343198d931"
+      },
+      {
+        "file": "data/mixing_low.npz",
+        "sha256": "a6ace1521a21518e18c2df03a6740888be1c1ac1aba94608f30d7a794556b1a4"
+      },
+      {
+        "file": "data/mixing_high.npz",
+        "sha256": "d16c2b9993be839731795efc4a58d8c4217545cab232d273f9d24c7d8faebafe"
+      }
+    ],
+    "description": "One-at-a-time coarse-grid spray parameter study, mean pressure and static hem displacement."
+  },
+  "animation_01_droplet": {
+    "files": [
+      {
+        "file": "assets/animation_01_droplet.mp4",
+        "sha256": "d6bacf77d8f9e25c19ba10b443953a0fd7b80f511376b87d381d380b8f6acff7"
+      },
+      {
+        "file": "assets/animation_01_droplet.gif",
+        "sha256": "d12ed451de3c53ca5e46c180d8b9ddc176dd0b5e29529f2c9249fa7ccf7156a6"
+      },
+      {
+        "file": "assets/animation_01_droplet_poster.png",
+        "sha256": "bebefd1ddecd0148d3ced4557a367c065b50252ea6813f7b8fdeae008f083c49"
+      },
+      {
+        "file": "assets/animation_01_droplet_poster.svg",
+        "sha256": "0c92641bcbe1ea02ac178a2fcd1841d2d0d8f509df005a76d822f8504b64cf43"
+      },
+      {
+        "file": "assets/animation_01_droplet_keyframes.png",
+        "sha256": "de24d547b4891060a4979ff4951247bc1cbe744cf37b07f5c62598c2d0c0576f"
+      }
+    ],
+    "sources": [],
+    "frames": 61,
+    "frames_per_second": 12.0,
+    "frame_coordinates": [
+      0.0,
+      0.008333333333333333,
+      0.016666666666666666,
+      0.025,
+      0.03333333333333333,
+      0.041666666666666664,
+      0.05,
+      0.058333333333333334,
+      0.06666666666666667,
+      0.075,
+      0.08333333333333333,
+      0.09166666666666666,
+      0.1,
+      0.10833333333333334,
+      0.11666666666666667,
+      0.125,
+      0.13333333333333333,
+      0.14166666666666666,
+      0.15,
+      0.15833333333333333,
+      0.16666666666666666,
+      0.175,
+      0.18333333333333332,
+      0.19166666666666665,
+      0.2,
+      0.20833333333333334,
+      0.21666666666666667,
+      0.225,
+      0.23333333333333334,
+      0.24166666666666667,
+      0.25,
+      0.2583333333333333,
+      0.26666666666666666,
+      0.275,
+      0.2833333333333333,
+      0.2916666666666667,
+      0.3,
+      0.30833333333333335,
+      0.31666666666666665,
+      0.325,
+      0.3333333333333333,
+      0.3416666666666667,
+      0.35,
+      0.35833333333333334,
+      0.36666666666666664,
+      0.375,
+      0.3833333333333333,
+      0.39166666666666666,
+      0.4,
+      0.4083333333333333,
+      0.4166666666666667,
+      0.425,
+      0.43333333333333335,
+      0.44166666666666665,
+      0.45,
+      0.4583333333333333,
+      0.4666666666666667,
+      0.475,
+      0.48333333333333334,
+      0.49166666666666664,
+      0.5
+    ],
+    "description": "Numerically integrated constant-drag falling droplet, independently checked against analytic solution. Playback slowed by factor ten.",
+    "physical_time_s": [
+      0.0,
+      0.008333333333333333,
+      0.016666666666666666,
+      0.025,
+      0.03333333333333333,
+      0.041666666666666664,
+      0.05,
+      0.058333333333333334,
+      0.06666666666666667,
+      0.075,
+      0.08333333333333333,
+      0.09166666666666666,
+      0.1,
+      0.10833333333333334,
+      0.11666666666666667,
+      0.125,
+      0.13333333333333333,
+      0.14166666666666666,
+      0.15,
+      0.15833333333333333,
+      0.16666666666666666,
+      0.175,
+      0.18333333333333332,
+      0.19166666666666665,
+      0.2,
+      0.20833333333333334,
+      0.21666666666666667,
+      0.225,
+      0.23333333333333334,
+      0.24166666666666667,
+      0.25,
+      0.2583333333333333,
+      0.26666666666666666,
+      0.275,
+      0.2833333333333333,
+      0.2916666666666667,
+      0.3,
+      0.30833333333333335,
+      0.31666666666666665,
+      0.325,
+      0.3333333333333333,
+      0.3416666666666667,
+      0.35,
+      0.35833333333333334,
+      0.36666666666666664,
+      0.375,
+      0.3833333333333333,
+      0.39166666666666666,
+      0.4,
+      0.4083333333333333,
+      0.4166666666666667,
+      0.425,
+      0.43333333333333335,
+      0.44166666666666665,
+      0.45,
+      0.4583333333333333,
+      0.4666666666666667,
+      0.475,
+      0.48333333333333334,
+      0.49166666666666664,
+      0.5
+    ],
+    "playback": "10 seconds of video per second of physical time"
+  },
+  "animation_02_vortex": {
+    "files": [
+      {
+        "file": "assets/animation_02_vortex.mp4",
+        "sha256": "15249ee26b9f22522f2b289307cb57fe5c21ba877b94823da37bb8c07580a3c0"
+      },
+      {
+        "file": "assets/animation_02_vortex.gif",
+        "sha256": "6154a283a6ab1ffafaa258045ae49e3a14cd6267ce6dc0efa57d9f71900039c9"
+      },
+      {
+        "file": "assets/animation_02_vortex_poster.png",
+        "sha256": "ca6a0d7cbb1fb6ae86a6380e1f09bd68ec0e9a205cfaf990c86ec5e8a8890585"
+      },
+      {
+        "file": "assets/animation_02_vortex_poster.svg",
+        "sha256": "e7d9bdd8b9a4400827421527a3773aa7de4078c205e6e2cc05aed02256f86c05"
+      },
+      {
+        "file": "assets/animation_02_vortex_keyframes.png",
+        "sha256": "d38ef6a37ac4708e106449587b1488be6474082f21f1252000ed94319278c0ec"
+      }
+    ],
+    "sources": [],
+    "frames": 61,
+    "frames_per_second": 10.0,
+    "frame_coordinates": [
+      0.0,
+      0.1,
+      0.2,
+      0.30000000000000004,
+      0.4,
+      0.5,
+      0.6000000000000001,
+      0.7000000000000001,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2000000000000002,
+      1.3,
+      1.4000000000000001,
+      1.5,
+      1.6,
+      1.7000000000000002,
+      1.8,
+      1.9000000000000001,
+      2.0,
+      2.1,
+      2.2,
+      2.3000000000000003,
+      2.4000000000000004,
+      2.5,
+      2.6,
+      2.7,
+      2.8000000000000003,
+      2.9000000000000004,
+      3.0,
+      3.1,
+      3.2,
+      3.3000000000000003,
+      3.4000000000000004,
+      3.5,
+      3.6,
+      3.7,
+      3.8000000000000003,
+      3.9000000000000004,
+      4.0,
+      4.1000000000000005,
+      4.2,
+      4.3,
+      4.4,
+      4.5,
+      4.6000000000000005,
+      4.7,
+      4.800000000000001,
+      4.9,
+      5.0,
+      5.1000000000000005,
+      5.2,
+      5.300000000000001,
+      5.4,
+      5.5,
+      5.6000000000000005,
+      5.7,
+      5.800000000000001,
+      5.9,
+      6.0
+    ],
+    "description": "Material markers rotate in an analytic solid-body core; steady speed and pressure profiles.",
+    "playback": "physical seconds"
+  },
+  "animation_03_thermal": {
+    "files": [
+      {
+        "file": "assets/animation_03_thermal.mp4",
+        "sha256": "12c9e6eb41cf78cfd3d5fd4f42b054b3485e680912206b0630d80ee224610da6"
+      },
+      {
+        "file": "assets/animation_03_thermal.gif",
+        "sha256": "bcb5e78bc9775734841560f62149f398421298bffa89fa28225936891bfc7f36"
+      },
+      {
+        "file": "assets/animation_03_thermal_poster.png",
+        "sha256": "701c577f16b3c1511b8205bdd01704c76187d48b10ac95b671322e66f6923f04"
+      },
+      {
+        "file": "assets/animation_03_thermal_poster.svg",
+        "sha256": "446aabc7a97c05079b32932082ec518c7ea2d784e93ba6861ed94dd0c2fb8b87"
+      },
+      {
+        "file": "assets/animation_03_thermal_keyframes.png",
+        "sha256": "786ccfc479285a56dcdb64413712a17bc2aa82c9ac13518c945ae6ce41f43a92"
+      }
+    ],
+    "sources": [],
+    "frames": 61,
+    "frames_per_second": 10.0,
+    "frame_coordinates": [
+      0.0,
+      0.08333333333333333,
+      0.16666666666666666,
+      0.25,
+      0.3333333333333333,
+      0.41666666666666663,
+      0.5,
+      0.5833333333333333,
+      0.6666666666666666,
+      0.75,
+      0.8333333333333333,
+      0.9166666666666666,
+      1.0,
+      1.0833333333333333,
+      1.1666666666666665,
+      1.25,
+      1.3333333333333333,
+      1.4166666666666665,
+      1.5,
+      1.5833333333333333,
+      1.6666666666666665,
+      1.75,
+      1.8333333333333333,
+      1.9166666666666665,
+      2.0,
+      2.083333333333333,
+      2.1666666666666665,
+      2.25,
+      2.333333333333333,
+      2.4166666666666665,
+      2.5,
+      2.583333333333333,
+      2.6666666666666665,
+      2.75,
+      2.833333333333333,
+      2.9166666666666665,
+      3.0,
+      3.083333333333333,
+      3.1666666666666665,
+      3.25,
+      3.333333333333333,
+      3.4166666666666665,
+      3.5,
+      3.583333333333333,
+      3.6666666666666665,
+      3.75,
+      3.833333333333333,
+      3.9166666666666665,
+      4.0,
+      4.083333333333333,
+      4.166666666666666,
+      4.25,
+      4.333333333333333,
+      4.416666666666666,
+      4.5,
+      4.583333333333333,
+      4.666666666666666,
+      4.75,
+      4.833333333333333,
+      4.916666666666666,
+      5.0
+    ],
+    "description": "Hydrostatic thermal pressure difference versus height for selected temperature differences.",
+    "frame_coordinate": "air-temperature difference K; not physical time"
+  },
+  "animation_04_airflow": {
+    "files": [
+      {
+        "file": "assets/animation_04_airflow.mp4",
+        "sha256": "c281fc23d102157026daf893083dbd131958f0ab61b4612bc9dcf7fce02cae70"
+      },
+      {
+        "file": "assets/animation_04_airflow.gif",
+        "sha256": "baba1e6e6c6ccfdd946c170c6a17e9d016f13ec21db797593d4236acfe606834"
+      },
+      {
+        "file": "assets/animation_04_airflow_poster.png",
+        "sha256": "351583c8603272352f3fc473e2c1b07452827d7528478b80239eccbe5f66d4cd"
+      },
+      {
+        "file": "assets/animation_04_airflow_poster.svg",
+        "sha256": "896c69f63263f057019dae242ba0a194e2cba5d9ce036d19c79ed8f5fb065d8f"
+      },
+      {
+        "file": "assets/animation_04_airflow_keyframes.png",
+        "sha256": "9ca1b4ba04bdafd95dc04365d4bfd3f750c181f32d0fa891797f60b5c0fa8da9"
+      }
+    ],
+    "sources": [
+      {
+        "file": "data/grid_fine_spray.npz",
+        "sha256": "cd4359cd899afc231b1fe7ceeafe5c7cf936552112e1728512447544c4e8df49"
+      },
+      {
+        "file": "data/grid_fine_heat.npz",
+        "sha256": "03b12d9152d97c5c83c238b4e087abeeb1ec86a9392101399c95ef37c9d0256d"
+      },
+      {
+        "file": "data/grid_fine_both.npz",
+        "sha256": "1ac839a24bd767bdf480028eccd85d0248a6fca1dd6e533b4fc6159c5acc0dff"
+      }
+    ],
+    "frames": 121,
+    "frames_per_second": 10.0,
+    "frame_coordinates": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7000000000000001,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.4000000000000001,
+      1.5,
+      1.6,
+      1.7,
+      1.8,
+      1.9000000000000001,
+      2.0,
+      2.1,
+      2.2,
+      2.3000000000000003,
+      2.4,
+      2.5,
+      2.6,
+      2.7,
+      2.8000000000000003,
+      2.9,
+      3.0,
+      3.1,
+      3.2,
+      3.3000000000000003,
+      3.4,
+      3.5,
+      3.6,
+      3.7,
+      3.8000000000000003,
+      3.9,
+      4.0,
+      4.1,
+      4.2,
+      4.3,
+      4.4,
+      4.5,
+      4.6000000000000005,
+      4.7,
+      4.8,
+      4.9,
+      5.0,
+      5.1000000000000005,
+      5.2,
+      5.3,
+      5.4,
+      5.5,
+      5.6000000000000005,
+      5.7,
+      5.8,
+      5.9,
+      6.0,
+      6.1000000000000005,
+      6.2,
+      6.3,
+      6.4,
+      6.5,
+      6.6000000000000005,
+      6.7,
+      6.8,
+      6.9,
+      7.0,
+      7.1000000000000005,
+      7.2,
+      7.3,
+      7.4,
+      7.5,
+      7.6000000000000005,
+      7.7,
+      7.8,
+      7.9,
+      8.0,
+      8.1,
+      8.2,
+      8.3,
+      8.4,
+      8.5,
+      8.6,
+      8.700000000000001,
+      8.8,
+      8.9,
+      9.0,
+      9.1,
+      9.200000000000001,
+      9.3,
+      9.4,
+      9.5,
+      9.6,
+      9.700000000000001,
+      9.8,
+      9.9,
+      10.0,
+      10.1,
+      10.200000000000001,
+      10.3,
+      10.4,
+      10.5,
+      10.6,
+      10.700000000000001,
+      10.8,
+      10.9,
+      11.0,
+      11.1,
+      11.200000000000001,
+      11.3,
+      11.4,
+      11.5,
+      11.6,
+      11.700000000000001,
+      11.8,
+      11.9,
+      12.0
+    ],
+    "description": "Fine-grid saved pressure and instantaneous projected streamlines at x=0.46875 m.",
+    "actual_slice_x_m": 0.46875,
+    "pressure_limits_Pa": [
+      -5.994747638702393,
+      5.994747638702393
+    ],
+    "pressure_linear_threshold_Pa": 0.02,
+    "playback": "physical seconds; no interpolated flow frames"
+  },
+  "animation_05_mean_load_release": {
+    "files": [
+      {
+        "file": "assets/animation_05_mean_load_release.mp4",
+        "sha256": "44f3917200c42d3dd3d10011f3e8ab71bc18904bf550c1c900fded227a38acc8"
+      },
+      {
+        "file": "assets/animation_05_mean_load_release.gif",
+        "sha256": "1bb3da26183e78b7c748387d08760ddc6f12ec256af494e39f18f8d4a020224b"
+      },
+      {
+        "file": "assets/animation_05_mean_load_release_poster.png",
+        "sha256": "9fa3f5df2956f3962c80230d1f9dc1574ab83b4270c6a39497982384af8de6f3"
+      },
+      {
+        "file": "assets/animation_05_mean_load_release_poster.svg",
+        "sha256": "b42ebe3e5b3511dfa559698e008c962717712726ec298cd69ab65c843ebfbd8d"
+      },
+      {
+        "file": "assets/animation_05_mean_load_release_keyframes.png",
+        "sha256": "72a2c285347b08eff480d62f0b6985696ae6241cf5b0be536939d8303a7a3e50"
+      }
+    ],
+    "sources": [
+      {
+        "file": "data/release_grid_fine_spray.npz",
+        "sha256": "f1403487f419ec2b8f16f40615bc765d1f9522935668634334fb33d0e8fa0998"
+      },
+      {
+        "file": "data/release_grid_fine_heat.npz",
+        "sha256": "d09ff9bf9811977d82193e5f31795d97437c17ac234a20a61ed74c3f53686909"
+      },
+      {
+        "file": "data/release_grid_fine_both.npz",
+        "sha256": "12bcbfd68702b5ce51396b3ff26081f6c2f57e3493a3bb690aaf956cf6f46c54"
+      },
+      {
+        "file": "data/grid_fine_spray.npz",
+        "sha256": "cd4359cd899afc231b1fe7ceeafe5c7cf936552112e1728512447544c4e8df49"
+      },
+      {
+        "file": "data/grid_fine_heat.npz",
+        "sha256": "03b12d9152d97c5c83c238b4e087abeeb1ec86a9392101399c95ef37c9d0256d"
+      },
+      {
+        "file": "data/grid_fine_both.npz",
+        "sha256": "1ac839a24bd767bdf480028eccd85d0248a6fca1dd6e533b4fc6159c5acc0dff"
+      }
+    ],
+    "frames": 61,
+    "frames_per_second": 10.0,
+    "frame_coordinates": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7000000000000001,
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.3,
+      1.4000000000000001,
+      1.5,
+      1.6,
+      1.7,
+      1.8,
+      1.9000000000000001,
+      2.0,
+      2.1,
+      2.2,
+      2.3000000000000003,
+      2.4,
+      2.5,
+      2.6,
+      2.7,
+      2.8000000000000003,
+      2.9,
+      3.0,
+      3.1,
+      3.2,
+      3.3000000000000003,
+      3.4,
+      3.5,
+      3.6,
+      3.7,
+      3.8000000000000003,
+      3.9,
+      4.0,
+      4.1,
+      4.2,
+      4.3,
+      4.4,
+      4.5,
+      4.6000000000000005,
+      4.7,
+      4.8,
+      4.9,
+      5.0,
+      5.1000000000000005,
+      5.2,
+      5.3,
+      5.4,
+      5.5,
+      5.6000000000000005,
+      5.7,
+      5.8,
+      5.9,
+      6.0
+    ],
+    "description": "Saved strip release response under constant computed 10\u201312 s mean pressure; no geometry feedback.",
+    "selected_widths_y_m": [
+      1.725,
+      0.675,
+      1.9875
+    ],
+    "playback": "physical seconds since release, independent of airflow clock",
+    "airflow_window_s": [
+      10,
+      12
+    ],
+    "equal_shape_axis_scales": true
+  }
+}
