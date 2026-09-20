@@ -1,0 +1,990 @@
+{
+  "control_off": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": false,
+    "heat": false,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "control_spray": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": false,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "control_heat": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": false,
+    "heat": true,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "control_both": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": true,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "grid_medium_spray": {
+    "shape": [
+      36,
+      48,
+      48
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": false,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "grid_fine_spray": {
+    "shape": [
+      48,
+      64,
+      64
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.002,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": false,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "grid_medium_heat": {
+    "shape": [
+      36,
+      48,
+      48
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": false,
+    "heat": true,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "grid_fine_heat": {
+    "shape": [
+      48,
+      64,
+      64
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.002,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": false,
+    "heat": true,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "grid_medium_both": {
+    "shape": [
+      36,
+      48,
+      48
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": true,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "grid_fine_both": {
+    "shape": [
+      48,
+      64,
+      64
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.002,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": true,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "time_half_spray": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.002,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": false,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "time_half_both": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.002,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": true,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "rays_double_spray": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 24,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": false,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "rays_double_both": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 24,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": true,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "flow_low": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 5.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": false,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "flow_high": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 10.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": false,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "diameter_small": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 0.5,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": false,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "diameter_large": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.5,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": false,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "speed_low": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 0.5,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": false,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "speed_high": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 3.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": false,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "tilt_vertical": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 0.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": false,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "tilt_high": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 35.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": false,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "mixing_low": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": false,
+    "rho": 1.2,
+    "nu": 0.001515,
+    "alpha": 0.002164,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "mixing_high": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 18.0,
+    "momentum": true,
+    "heat": false,
+    "rho": 1.2,
+    "nu": 0.006015,
+    "alpha": 0.008593,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "water_35C": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 13.0,
+    "momentum": true,
+    "heat": true,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  },
+  "water_41C": {
+    "shape": [
+      24,
+      32,
+      32
+    ],
+    "length": [
+      1.8,
+      2.4,
+      2.4
+    ],
+    "curtain_x": 0.9,
+    "bottom": 0.3,
+    "top": 2.1,
+    "dt": 0.004,
+    "duration": 12.0,
+    "output_interval": 0.1,
+    "flow_lpm": 8.0,
+    "diameter_mm": 1.0,
+    "speed": 1.0,
+    "tilt_deg": 20.0,
+    "cone_half_deg": 8.0,
+    "head": [
+      0.45,
+      0.35,
+      2.1
+    ],
+    "head_radius": 0.05,
+    "rays": 12,
+    "water_delta_T": 19.0,
+    "momentum": true,
+    "heat": true,
+    "rho": 1.2,
+    "nu": 0.003015,
+    "alpha": 0.004307,
+    "beta": 0.0033881077418261903,
+    "g": 9.81
+  }
+}

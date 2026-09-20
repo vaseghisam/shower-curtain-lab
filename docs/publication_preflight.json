@@ -1,0 +1,104 @@
+{
+  "status": "passed",
+  "checks": {
+    "article": {
+      "display_equations": 28,
+      "inline_equations": 123,
+      "references": 15,
+      "citation_first_appearance": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "article_media_links": 10,
+      "canonical_sha256": "3aea75958b97c61a3bc9437fc171ad6f901427e65bd3590a485c21662e66a197",
+      "tk_sha256": "55717461176a3fbbfb39c16f05db26477faea5da5685e71ece7c2a49e8b2115c"
+    },
+    "source_and_output_hashes": {
+      "publication_hashes_checked": 69,
+      "phase1_source_hashes_checked": 16,
+      "publication_output_files": 35
+    },
+    "media": {
+      "PNG_files_fully_decoded": 15,
+      "SVG_files_parsed": 10,
+      "GIF_frames_fully_decoded": {
+        "animation_01_droplet.gif": 61,
+        "animation_02_vortex.gif": 61,
+        "animation_03_thermal.gif": 61,
+        "animation_04_airflow.gif": 121,
+        "animation_05_mean_load_release.gif": 61
+      },
+      "MP4_streams_probed": {
+        "animation_01_droplet.mp4": {
+          "width": 1400,
+          "height": 900,
+          "duration": "5.083333",
+          "nb_frames": "61"
+        },
+        "animation_02_vortex.mp4": {
+          "width": 1400,
+          "height": 900,
+          "duration": "6.100000",
+          "nb_frames": "61"
+        },
+        "animation_03_thermal.mp4": {
+          "width": 1400,
+          "height": 900,
+          "duration": "6.100000",
+          "nb_frames": "61"
+        },
+        "animation_04_airflow.mp4": {
+          "width": 1400,
+          "height": 900,
+          "duration": "12.100000",
+          "nb_frames": "121"
+        },
+        "animation_05_mean_load_release.mp4": {
+          "width": 1400,
+          "height": 900,
+          "duration": "6.100000",
+          "nb_frames": "61"
+        }
+      }
+    },
+    "independent_numeric_consistency": {
+      "spray": {
+        "mean_pressure_Pa": 0.026980092779962227,
+        "mean_static_hem_cm": 1.8198902203716747,
+        "maximum_sampled_mean_load_release_cm": 4.616780850891445,
+        "independent_quadrature_max_hem_error_m": 7.573250064988116e-06
+      },
+      "heat": {
+        "mean_pressure_Pa": 0.01880657214186605,
+        "mean_static_hem_cm": 1.3281135231920698,
+        "maximum_sampled_mean_load_release_cm": 3.3349295950323645,
+        "independent_quadrature_max_hem_error_m": 2.3570330284251872e-07
+      },
+      "both": {
+        "mean_pressure_Pa": 0.044435620201961866,
+        "mean_static_hem_cm": 3.2127288589540073,
+        "maximum_sampled_mean_load_release_cm": 7.768738501267536,
+        "independent_quadrature_max_hem_error_m": 6.3603748490653755e-06
+      },
+      "analytic_uniform_example": {
+        "unweighted_m": 0.1834862385321101,
+        "weighted_m": 0.10570559105529818
+      }
+    }
+  },
+  "failures": [],
+  "scope": "Local syntax and saved-data/integrity checks; no actual TK import, full CFD rerun, or experimental validation."
+}

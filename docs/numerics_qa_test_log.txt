@@ -1,0 +1,30 @@
+test_two_stage_pressure_has_full_force_not_half (test_driver_qa.DriverIndependentQA.test_two_stage_pressure_has_full_force_not_half) ... ok
+test_cic_adjoint_conservation_and_baffle_exclusion (test_droplets.DropletTests.test_cic_adjoint_conservation_and_baffle_exclusion) ... ok
+test_diagnostic_switches_are_explicit (test_droplets.DropletTests.test_diagnostic_switches_are_explicit) ... ok
+test_drag_stiffness_screen_counts_represented_gas_loading (test_droplets.DropletTests.test_drag_stiffness_screen_counts_represented_gas_loading) ... ok
+test_injection_wall_exit_and_global_budgets (test_droplets.DropletTests.test_injection_wall_exit_and_global_budgets) ... ok
+test_quadratic_drag_terminal_solution_and_order (test_droplets.DropletTests.test_quadratic_drag_terminal_solution_and_order) ... ok
+test_quadratic_wall_time_and_curtain_impact_budget (test_droplets.DropletTests.test_quadratic_wall_time_and_curtain_impact_budget) ... ok
+test_step_action_reaction_mass_and_heat (test_droplets.DropletTests.test_step_action_reaction_mass_and_heat) ... ok
+test_stokes_limit_and_zero_slip (test_droplets.DropletTests.test_stokes_limit_and_zero_slip) ... ok
+test_centered_transport_kinetic_energy (test_grid_qa.GridIndependentQA.test_centered_transport_kinetic_energy) ... ok
+test_diffusion_is_symmetric_and_dissipative_at_baffle_tips (test_grid_qa.GridIndependentQA.test_diffusion_is_symmetric_and_dissipative_at_baffle_tips) ... ok
+test_divergence_gradient_discrete_work (test_grid_qa.GridIndependentQA.test_divergence_gradient_discrete_work) ... ok
+test_free_slip_diffusion_matches_independent_eigenfunction (test_grid_qa.GridIndependentQA.test_free_slip_diffusion_matches_independent_eigenfunction) ... ok
+test_hydrostatic_column_is_balanced_across_curtain (test_grid_qa.GridIndependentQA.test_hydrostatic_column_is_balanced_across_curtain) ... ok
+test_manufactured_pressure_jump_has_correct_sign (test_grid_qa.GridIndependentQA.test_manufactured_pressure_jump_has_correct_sign) ... ok
+test_pressure_projection_is_orthogonal_and_idempotent (test_grid_qa.GridIndependentQA.test_pressure_projection_is_orthogonal_and_idempotent) ... ok
+test_projection_is_incompressible_and_no_penetration (test_grid_qa.GridIndependentQA.test_projection_is_incompressible_and_no_penetration) ... ok
+test_scalar_transport_conserves_integral (test_grid_qa.GridIndependentQA.test_scalar_transport_conserves_integral) ... ok
+test_tvd_scalar_conserves_constant_mass_and_extrema (test_grid_qa.GridIndependentQA.test_tvd_scalar_conserves_constant_mass_and_extrema) ... ok
+test_tvd_smooth_interior_transport_second_order (test_grid_qa.GridIndependentQA.test_tvd_smooth_interior_transport_second_order) ... ok
+test_zero_state_and_uniform_scalar (test_grid_qa.GridIndependentQA.test_zero_state_and_uniform_scalar) ... ok
+test_control_outputs_pressure_stress_and_budgets (test_saved_results_qa.SavedResultsIndependentQA.test_control_outputs_pressure_stress_and_budgets) ... ok
+test_first_contact_contains_actual_event_state (test_strip_qa.StripInterfaceIndependentQA.test_first_contact_contains_actual_event_state) ... ok
+test_original_uniform_pressure_benchmark_and_mesh_order (test_strip_qa.StripInterfaceIndependentQA.test_original_uniform_pressure_benchmark_and_mesh_order) ... ok
+test_saved_pressure_reaches_correct_strip_height_width_and_time (test_strip_qa.StripInterfaceIndependentQA.test_saved_pressure_reaches_correct_strip_height_width_and_time) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.400s
+
+OK

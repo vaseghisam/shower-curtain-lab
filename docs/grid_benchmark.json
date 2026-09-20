@@ -1,0 +1,60 @@
+{
+  "method": "Orthonormal DCT in y with exact sparse x-z masked Poisson factors; centered conservative MAC advection; free-slip viscous operator",
+  "python": "3.12.14",
+  "seed": 42,
+  "benchmark_kind": "synthetic random-field operator check, not a shower prediction",
+  "rows": [
+    {
+      "shape": [
+        12,
+        16,
+        16
+      ],
+      "setup_seconds": 0.0062661679985467345,
+      "projection_median_seconds": 0.0004477104994293768,
+      "max_divergence_per_second": 4.440892098500626e-14,
+      "relative_convection_power": 7.634529634284153e-18,
+      "diffusive_power": -1361188.877162417,
+      "blocked_face_max_speed": 0.0
+    },
+    {
+      "shape": [
+        24,
+        32,
+        32
+      ],
+      "setup_seconds": 0.041069367000091006,
+      "projection_median_seconds": 0.002988052000546304,
+      "max_divergence_per_second": 8.615330671091215e-14,
+      "relative_convection_power": 5.10747989343796e-18,
+      "diffusive_power": -47904283.20907603,
+      "blocked_face_max_speed": 0.0
+    },
+    {
+      "shape": [
+        36,
+        48,
+        48
+      ],
+      "setup_seconds": 0.1426067560005322,
+      "projection_median_seconds": 0.012619929500033322,
+      "max_divergence_per_second": 1.4210854715202004e-13,
+      "relative_convection_power": 2.8817015427309912e-18,
+      "diffusive_power": -373457710.2904887,
+      "blocked_face_max_speed": 0.0
+    },
+    {
+      "shape": [
+        48,
+        64,
+        64
+      ],
+      "setup_seconds": 0.42896050400122476,
+      "projection_median_seconds": 0.028327770000032615,
+      "max_divergence_per_second": 9.094947017729282e-13,
+      "relative_convection_power": 2.308303558083503e-18,
+      "diffusive_power": -1604171555.3600912,
+      "blocked_face_max_speed": 0.0
+    }
+  ]
+}

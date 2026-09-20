@@ -1,0 +1,127 @@
+[
+  {
+    "file": "assets/animation_01_droplet.gif",
+    "returncode": 0,
+    "output": "WARNING: typical frame duration is 80 ms; established 8 fps is about 125 ms\nOK: assets/animation_01_droplet.gif\n"
+  },
+  {
+    "file": "assets/animation_01_droplet_poster.png",
+    "returncode": 0,
+    "output": "OK: assets/animation_01_droplet_poster.png\n"
+  },
+  {
+    "file": "assets/animation_01_droplet_poster.svg",
+    "returncode": 0,
+    "output": "OK: assets/animation_01_droplet_poster.svg\n"
+  },
+  {
+    "file": "assets/animation_02_vortex.gif",
+    "returncode": 0,
+    "output": "OK: assets/animation_02_vortex.gif\n"
+  },
+  {
+    "file": "assets/animation_02_vortex_poster.png",
+    "returncode": 0,
+    "output": "OK: assets/animation_02_vortex_poster.png\n"
+  },
+  {
+    "file": "assets/animation_02_vortex_poster.svg",
+    "returncode": 0,
+    "output": "OK: assets/animation_02_vortex_poster.svg\n"
+  },
+  {
+    "file": "assets/animation_03_thermal.gif",
+    "returncode": 0,
+    "output": "OK: assets/animation_03_thermal.gif\n"
+  },
+  {
+    "file": "assets/animation_03_thermal_poster.png",
+    "returncode": 0,
+    "output": "OK: assets/animation_03_thermal_poster.png\n"
+  },
+  {
+    "file": "assets/animation_03_thermal_poster.svg",
+    "returncode": 0,
+    "output": "OK: assets/animation_03_thermal_poster.svg\n"
+  },
+  {
+    "file": "assets/animation_04_airflow.gif",
+    "returncode": 0,
+    "output": "OK: assets/animation_04_airflow.gif\n"
+  },
+  {
+    "file": "assets/animation_04_airflow_poster.png",
+    "returncode": 0,
+    "output": "OK: assets/animation_04_airflow_poster.png\n"
+  },
+  {
+    "file": "assets/animation_04_airflow_poster.svg",
+    "returncode": 0,
+    "output": "OK: assets/animation_04_airflow_poster.svg\n"
+  },
+  {
+    "file": "assets/animation_05_mean_load_release.gif",
+    "returncode": 0,
+    "output": "OK: assets/animation_05_mean_load_release.gif\n"
+  },
+  {
+    "file": "assets/animation_05_mean_load_release_poster.png",
+    "returncode": 0,
+    "output": "OK: assets/animation_05_mean_load_release_poster.png\n"
+  },
+  {
+    "file": "assets/animation_05_mean_load_release_poster.svg",
+    "returncode": 0,
+    "output": "OK: assets/animation_05_mean_load_release_poster.svg\n"
+  },
+  {
+    "file": "assets/figure_01_geometry.png",
+    "returncode": 0,
+    "output": "OK: assets/figure_01_geometry.png\n"
+  },
+  {
+    "file": "assets/figure_01_geometry.svg",
+    "returncode": 0,
+    "output": "OK: assets/figure_01_geometry.svg\n"
+  },
+  {
+    "file": "assets/figure_02_prescribed_strip.png",
+    "returncode": 0,
+    "output": "OK: assets/figure_02_prescribed_strip.png\n"
+  },
+  {
+    "file": "assets/figure_02_prescribed_strip.svg",
+    "returncode": 0,
+    "output": "OK: assets/figure_02_prescribed_strip.svg\n"
+  },
+  {
+    "file": "assets/figure_03_pressure_to_strip.png",
+    "returncode": 0,
+    "output": "OK: assets/figure_03_pressure_to_strip.png\n"
+  },
+  {
+    "file": "assets/figure_03_pressure_to_strip.svg",
+    "returncode": 0,
+    "output": "OK: assets/figure_03_pressure_to_strip.svg\n"
+  },
+  {
+    "file": "assets/figure_04_mass_response.png",
+    "returncode": 0,
+    "output": "OK: assets/figure_04_mass_response.png\n"
+  },
+  {
+    "file": "assets/figure_04_mass_response.svg",
+    "returncode": 0,
+    "output": "OK: assets/figure_04_mass_response.svg\n"
+  },
+  {
+    "file": "assets/figure_05_parameter_study.png",
+    "returncode": 0,
+    "output": "OK: assets/figure_05_parameter_study.png\n"
+  },
+  {
+    "file": "assets/figure_05_parameter_study.svg",
+    "returncode": 0,
+    "output": "OK: assets/figure_05_parameter_study.svg\n"
+  }
+]

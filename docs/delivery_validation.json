@@ -1,0 +1,10 @@
+{
+  "numerical_archives_CRC_checked": 128,
+  "PNG_files_fully_decoded": 24,
+  "SVG_files_parsed": 19,
+  "local_markdown_links_checked": 50,
+  "visual_source_hashes_match": true,
+  "media_full_decode_audit": "docs/render_validation.json",
+  "excluded": "superseded pilot outputs, caches and temporary files",
+  "status": "passed before bundling"
+}

@@ -1,0 +1,137 @@
+{
+  "status": "pass",
+  "artifact_count": 18,
+  "source_hashes_match_current_data": true,
+  "png": "checksum and full pixel decode",
+  "gif": "all frames decoded and count checked",
+  "mp4": "full ffmpeg decode and stream frame count checked",
+  "svg": "XML parsed",
+  "artifacts": [
+    {
+      "file": "figures/figure_01_geometry.png",
+      "bytes": 153648,
+      "sha256": "fd4b37d9b3f6db484a0c9a7afe894c76327d7a0504029c9475180f2c83368b2d",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": null
+    },
+    {
+      "file": "figures/figure_01_geometry.svg",
+      "bytes": 19636,
+      "sha256": "ed911c9ae91fbd7c74c5fafe449b4cf9d13fd044c75b9cc06134160418389013",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": null
+    },
+    {
+      "file": "animations/animation_01_fine_airflow.mp4",
+      "bytes": 3172089,
+      "sha256": "76eab3f5593c21d568982286367ac91c4fccf585bc787483025a1ac2270019d7",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": 121
+    },
+    {
+      "file": "animations/animation_01_fine_airflow.gif",
+      "bytes": 18296795,
+      "sha256": "7bdccfc13b6438ad775637015f2de716df115e1ba31b29824bee39fb6762ea29",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": 121
+    },
+    {
+      "file": "figures/animation_01_fine_airflow_poster.png",
+      "bytes": 640898,
+      "sha256": "59de88c1efb61485312e93bd50c589832fab35ffc145221b814a54ce37c4766c",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": null
+    },
+    {
+      "file": "figures/animation_01_fine_airflow_poster.svg",
+      "bytes": 202812,
+      "sha256": "0ddac2d745d82211abc937c436819869eb2a1e1d89d116a9266b634474a8e419",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": null
+    },
+    {
+      "file": "animations/animation_02_fine_curtain_pressure.mp4",
+      "bytes": 1293202,
+      "sha256": "e12e02aa8558737956e4d3bf1623449ee0c4721b81ac7f5a0057e7804991c7ae",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": 121
+    },
+    {
+      "file": "animations/animation_02_fine_curtain_pressure.gif",
+      "bytes": 6113784,
+      "sha256": "605102f9e1c035aad1f358e2a14ebb32e082f086be5fe82abfed41a1b247aad4",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": 121
+    },
+    {
+      "file": "figures/animation_02_fine_curtain_pressure_poster.png",
+      "bytes": 175890,
+      "sha256": "39fa3fff748034dddb8c3f77e3792d0c388f69f6942e0a92aed03cc134f9e08f",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": null
+    },
+    {
+      "file": "figures/animation_02_fine_curtain_pressure_poster.svg",
+      "bytes": 46260,
+      "sha256": "b53670f49b0be9b5476fad89a8f7b40ef0cacb4f183a3bc53041b19e7fa1c41a",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": null
+    },
+    {
+      "file": "animations/animation_04_fine_air_temperature.mp4",
+      "bytes": 846442,
+      "sha256": "950bb5a2df928dee0550a664e478d526705da08012ba763b95711b9eb8a6cefd",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": 121
+    },
+    {
+      "file": "animations/animation_04_fine_air_temperature.gif",
+      "bytes": 4465626,
+      "sha256": "2ae78c438c52757cab384584891e977772255f480d6161d1806dec56dc8a6ede",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": 121
+    },
+    {
+      "file": "figures/animation_04_fine_air_temperature_poster.png",
+      "bytes": 186558,
+      "sha256": "4f29096ef3478c11425070d2041d9e9cfee3689aedc689ffc25b86481321d08d",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": null
+    },
+    {
+      "file": "figures/animation_04_fine_air_temperature_poster.svg",
+      "bytes": 48653,
+      "sha256": "b0353a666318dd51323feb6c8f86b7b66db6b47f92e973faba23fd44455d3ea3",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": null
+    },
+    {
+      "file": "animations/animation_03_fine_mean_load_release.mp4",
+      "bytes": 633661,
+      "sha256": "1a01e45b9a31a02f4a62ba4e39d6fb97d6810b53ba60db63753b61dfdf26a75a",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": 101
+    },
+    {
+      "file": "animations/animation_03_fine_mean_load_release.gif",
+      "bytes": 5770174,
+      "sha256": "293d53e27751d0ee51e29a25ebd1bea2281bfda4262774b33ce19d0cd005f928",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": 101
+    },
+    {
+      "file": "figures/animation_03_fine_mean_load_release_poster.png",
+      "bytes": 311710,
+      "sha256": "517c14a3c5cdb95b042ae32a612587b09b32733515e3995d8cf72323c27480ff",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": null
+    },
+    {
+      "file": "figures/animation_03_fine_mean_load_release_poster.svg",
+      "bytes": 62058,
+      "sha256": "2657357bd67fc55c847a99cbbd9adf03e28a9f7f0d8439150bb3e7589647b48a",
+      "complete_decode_or_parse": "passed",
+      "expected_frames": null
+    }
+  ]
+}
